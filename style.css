@@ -11,7 +11,7 @@
 
 
 .row{
-    /* text-align: center; */
+    text-align: center; 
     margin: 40px 0;
 }
 
@@ -53,8 +53,8 @@
 
 .sconto{
     position: absolute;
-    bottom: 15px;
-    left: 10px;
+    bottom: 65px;
+    left: 0px;
     z-index: 1;
     width: 45px;
     height: 40px;
@@ -66,8 +66,21 @@
 
 .sostenibile{
     position: absolute;
-    bottom: 15px;
-    left: 60px;
+    bottom: 65px;
+    left: 50px;
+    z-index: 1;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.sostenibile2{
+    position: absolute;
+    bottom: 65px;
+    left: 0px;
     z-index: 1;
     width: 90px;
     height: 40px;
