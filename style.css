@@ -1,4 +1,9 @@
 
+#contenitore{
+    width: 1170px;
+    margin: auto;
+}
+
 .prodotto{
     display: inline-block;
     position: relative;
@@ -7,28 +12,37 @@
 
 .immagine1{
     display: block;
+    height: 400px;
+    width: 300px;
 }
 
 .immagine2{
     display: none;
+    height: 400px;
+    width: 300px;
 }
 
 
-.cambio-immagine{
+.prodotto:hover .immagine1{
+    display: none;
 }
 
-.cambio-immagine:hover .immagine1{
-    display: none
-}
-
-.cambio-immagine:hover .immagine2{
+.prodotto:hover .immagine2{
     display: block;
+}
+
+
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .sconto{
     position: absolute;
-    bottom: 5px;
-    left: 2px;
+    bottom: 15px;
+    left: 10px;
     z-index: 1;
     width: 45px;
     height: 40px;
@@ -36,4 +50,27 @@
     color: white;
     background-color: red;
     text-align: center;
+}
+
+.sostenibile{
+    position: absolute;
+    bottom: 15px;
+    left: 60px;
+    z-index: 1;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+
+.nome-prodotto{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.prezzo{
+    color: red;
 }
