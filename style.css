@@ -1,0 +1,39 @@
+
+.prodotto{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.immagine1{
+    display: block;
+}
+
+.immagine2{
+    display: none;
+}
+
+
+.cambio-immagine{
+}
+
+.cambio-immagine:hover .immagine1{
+    display: none
+}
+
+.cambio-immagine:hover .immagine2{
+    display: block;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    z-index: 1;
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}
