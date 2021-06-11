@@ -1,7 +1,18 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #contenitore{
     width: 1170px;
     margin: auto;
+}
+
+
+.row{
+    /* text-align: center; */
+    margin: 40px 0;
 }
 
 .prodotto{
@@ -33,9 +44,10 @@
 
 
 .heart{
+    font-size: 25px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 10px;
     z-index: 1;
 }
 
@@ -66,9 +78,8 @@
 }
 
 
-.nome-prodotto{
-    margin-top: 0;
-    margin-bottom: 0;
+.testo{
+    text-align: left;
 }
 
 .prezzo{
