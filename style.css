@@ -49,43 +49,32 @@
     z-index: 1;
 }
 
-.sconto{
+.tag{
     position: absolute;
     bottom: 65px;
-    left: 0px;
     z-index: 1;
-    width: 45px;
     height: 40px;
     line-height: 40px;
     color: white;
-    background-color: red;
     text-align: center;
+}
+
+.sconto{
+    left: 0px;
+    width: 45px;
+    background-color: red;
 }
 
 .sostenibile{
-    position: absolute;
-    bottom: 65px;
     left: 50px;
-    z-index: 1;
     width: 90px;
-    height: 40px;
-    line-height: 40px;
-    color: white;
     background-color: green;
-    text-align: center;
 }
 
 .sostenibile2{
-    position: absolute;
-    bottom: 65px;
     left: 0px;
-    z-index: 1;
     width: 90px;
-    height: 40px;
-    line-height: 40px;
-    color: white;
     background-color: green;
-    text-align: center;
 }
 
 .testo{
